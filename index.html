@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="main.js" defer async></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="user-input">
+        <h1>Jeu de devinette de nombres aléatoires</h1>
+        <p>Devinez un nombre entre 1 et 100 :</p>
+        <input type="text" id="devinette">
+        <button onclick="devinerNombre()">Devinez</button>
+        <button onclick="rejouer()">Rejouer</button>
+        <div id="response"></div>
+    </div>
+    <div id="gauge-demon" class="gauge-container"></div>
+    <script src="dist/gauge.min.js"></script>
+</body>
+</html>
