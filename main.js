@@ -1,19 +1,19 @@
 // gauge :credits à https://github.com/naikus/svg-gauge
 
-var myGauge = Gauge(document.getElementById("gauge-demon"),{
-    dialRadius: 40,
-    dialStartAngle: 135,
-    dialEndAngle: 45,
-    value: 0,
-    max: 100,
-    min: 0,
-    valueDialClass: "value",
-    valueClass: "value-text",
-    dialClass: "dial",
-    gaugeClass: "gauge",
-    showValue: false,
-    gaugeColor: null,
-});
+// var myGauge = Gauge(document.getElementById("gauge-demon"),{
+//     dialRadius: 40,
+//     dialStartAngle: 135,
+//     dialEndAngle: 45,
+//     value: 0,
+//     max: 100,
+//     min: 0,
+//     valueDialClass: "value",
+//     valueClass: "value-text",
+//     dialClass: "dial",
+//     gaugeClass: "gauge",
+//     showValue: false,
+//     gaugeColor: null,
+// });
 
 // Variables globales
 var nombreAleatoire, accuracyRate = 0;
@@ -44,7 +44,7 @@ function devinerNombre() {
     document.getElementById("devinette").value = "";
 
     // Mettre à jour la gauche
-    myGauge.setValue(accuracyRate);
+    // myGauge.setValue(accuracyRate);
 }
 
 // Fonction appelée lorsque l'utilisateur clique sur le bouton "Rejouer"

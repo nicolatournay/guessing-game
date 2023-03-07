@@ -1,0 +1,10 @@
+$baseFontSize: 16;
+$green: #1abc9c;
+$yellow: #f1c40f;
+$red: #c0392b;
+$blue: #3498db;
+$grey: #f2f2f2;
+
+@function rem($val) {
+  @return #{$val / $baseFontSize}rem;
+}
